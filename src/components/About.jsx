@@ -8,7 +8,7 @@ function About() {
           <div class="col-lg-7">
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
+              src="https://cdn-icons.flaticon.com/png/512/3432/premium/3432031.png?token=exp=1639821557~hmac=e0ab6f3ef4090551ceee5f67c51e7397"
               alt=""
             />
           </div>

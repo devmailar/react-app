@@ -1,19 +1,19 @@
 import React from "react";
 
-function Contact() {
+function Blog() {
   return (
-    <div className="contact">
+    <div className="blog">
       <div class="container">
         <div class="row align-items-center my-5">
           <div class="col-lg-7">
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
-              src="https://cdn-icons.flaticon.com/png/512/4764/premium/4764275.png?token=exp=1639821629~hmac=74f20df04e9d1b81ece0ae28525265c9"
+              src="https://cdn-icons-png.flaticon.com/512/888/888802.png"
               alt=""
             />
           </div>
           <div class="col-lg-5">
-            <h1 class="font-weight-light">Contact</h1>
+            <h1 class="font-weight-light">Blog</h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -27,4 +27,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default Blog;
