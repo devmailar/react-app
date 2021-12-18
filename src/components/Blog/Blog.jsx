@@ -1,4 +1,5 @@
 import React from "react";
+import icon from '../../assets/blog.png'; // Tell webpack this JS file uses this image
 
 function Blog() {
   return (
@@ -8,7 +9,7 @@ function Blog() {
           <div class="col-lg-7">
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
-              src="https://cdn-icons-png.flaticon.com/512/888/888802.png"
+              src={icon}
               alt=""
             />
           </div>

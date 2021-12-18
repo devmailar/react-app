@@ -1,4 +1,5 @@
 import React from "react";
+import icon from '../../assets/additive-synthesis.png'; // Tell webpack this JS file uses this image
 
 function About() {
   return (
@@ -8,7 +9,7 @@ function About() {
           <div class="col-lg-7">
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
-              src="https://cdn-icons-png.flaticon.com/512/2942/2942909.png"
+              src={icon}
               alt=""
             />
           </div>

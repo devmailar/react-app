@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Home.css'; // Tell webpack that Button.js uses these styles
+import icon from '../../assets/developer.png'; // Tell webpack this JS file uses this image
 
 function Home() {
   return (
@@ -10,7 +11,7 @@ function Home() {
           <div class="col-lg-7">
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
-              src="https://cdn-icons-png.flaticon.com/512/1906/1906563.png"
+              src={icon}
               alt=""
             />
           </div>
