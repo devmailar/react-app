@@ -1,7 +1,9 @@
-import React from "react";
+import React, { Component } from 'react';
+import './Home.css'; // Tell webpack that Button.js uses these styles
 
 function Home() {
   return (
+    
     <div className="home">
       <div class="container">
         <div class="row align-items-center my-5">
@@ -21,6 +23,7 @@ function Home() {
         </div>
       </div>
     </div>
+    
   );
 }
 
