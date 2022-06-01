@@ -6,7 +6,7 @@
     padding: 0.5rem;
     margin: 1rem 0;
     border-radius: 12px;
-    background-color: #4b4b4b;
+    background-color: #ede8e9;
   }
   
   .expense-item__description {
@@ -20,21 +20,20 @@
   }
   
   .expense-item h2 {
-    color: #3a3a3a;
-    font-size: 1rem;
+    color: #1369f3fc;
     flex: 1;
     margin: 0 1rem;
-    color: white;
   }
   
   .expense-item__price {
-    font-size: 1rem;
+    font-size: 1.2rem !important;
+    padding: 1rem 1.3rem !important;
     font-weight: bold;
-    color: white;
-    background-color: #40005d;
-    border: 1px solid white;
-    padding: 0.5rem;
-    border-radius: 12px;
+    background-color: #2d4a75fc;
+    box-shadow: -0rem 0.2rem 0.4rem #080d157d;
+    color: #ffffff;
+    border-radius: 2rem;
+    text-align: center;
   }
   
   @media (min-width: 580px) {
@@ -53,4 +52,8 @@
       font-size: 1.25rem;
       padding: 0.5rem 1.5rem;
     }
+  }
+
+  .ei-blue {
+    background: rgb(51, 0, 255) !important;
   }
